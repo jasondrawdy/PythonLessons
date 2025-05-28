@@ -43,14 +43,25 @@ This is an outline of the entire programming course timeline. It includes expect
 ---
 
 ### 🗓️ Day 2 – Conditional Logic & Loops
+*Revists the previous day's concepts and integrates even more by showcasing new logical operators and looping mechanisms to further enhance the capabilities of the programmer. Checking input, filtering objects, or even printing several values is useful in many situations.*
 
 **Objective**: Use `if`, `elif`, and `else` to make decisions and utilize loops to repeat tasks.
 
 ### Concepts Introduced:
+- Data types: `list`, `dict`
 - Comparison: `==`, `!=`, `>`, `<`, `>=`, `<=`
 - Logical ops: `and`, `or`, `not`
+- Looping ops: `for`, `while`, `break`, `continue`, `in`
 - Boolean expressions
 - Flow control
+
+#### Activities:
+- **1**. Create a file: `logic.py`  
+- **2**. Get two numbers from the user and check which is bigger
+- **3**. Make a list of numbers and use a `for` loop to print all of them
+    - **3a**. Check for a specific number in the list using the `if` & `in` operators
+- **4**. Make a dictionary of numbers and print one
+- **5**. Run and debug
 
 ### Class Project:
 Login check – Match username and password to stored values
