@@ -1,3 +1,53 @@
+# Day 1 – What is Programming? + Input, Variables & Data Types
+
+#=============================================================
+#! Section 0: Introduction
+#=============================================================
+'''
+💻 What is Programming?
+
+Programming is the process of telling a computer what to do by writing a set of instructions.
+
+Think of a computer like a super-fast, very literal robot. It doesn't think for itself — it follows your instructions exactly as you give them.
+
+These instructions are written using something called a programming language.
+
+---
+
+🔤 What is a Programming Language?
+
+A programming language is a special kind of language used to communicate with a computer.
+
+Just like we use English or Spanish to talk to people, we use languages like:
+
+- Python
+- JavaScript
+- C++
+- Java
+- Go
+
+...to talk to computers.
+
+Each language has its own rules (called syntax) and is better suited for different kinds of tasks.
+
+---
+
+🧭 What's the Point of Programming?
+
+The goal of programming is to create software — useful or fun tools that run on computers, phones, or even cars.
+
+Examples of what programming can create:
+
+- 🎮 Video games  
+- 📱 Mobile apps  
+- 🌐 Websites  
+- 📊 Business tools  
+- 🤖 Robots and AI  
+- 🚀 Software for planes, rockets, and self-driving cars  
+
+Programming helps us solve problems, automate tasks, and build new technology.
+'''
+
 #=============================================================
 #! Section 1: Syntax & Indentation
 #=============================================================
@@ -6,13 +56,15 @@ In programming, syntax refers to the rules that define the correct structure of 
 
 Python is known for having a clear, readable syntax, which makes it a top choice for beginners. Unlike many other programming languages, Python doesn't use curly braces {} or semicolons ; to define blocks of code. Instead, it uses indentation, making the code look clean and easy to follow. So, let us start by understanding what indentation is.
 
-In Python, indentation isn't just for readability -- it's required. Unlike other languages that use braces or keywords to define code blocks, Python uses whitespace (indentation) to group statements together.
+In Python, indentation isn't just for readability -- it's required. Unlike other languages that use braces or keywords to define code blocks, Python uses whitespace (indentation) via spaces or tabs (and it doesn't matter which is better as long as the codebase is consistent) to group statements together.
 
 Why is indentation important in Python?
 
 Indentation tells Python where blocks of code begin and end. This is especially important in control flow structures like "if", "for", "while", and function definitions. If our indentation is incorrect, Python will raise an error called an "IndentationError".
 
 Look below for examples of correct vs incorrect indentation.
+
+NOTE: *After the usage of a conditional, or while declaring a signature of a function or class (example below and in the next lessons), a colon is used to signify the end of the line and continuation of the definition of the condition, function, or class being defined.*
 '''
 
 #? Correct indentation using tabs (runs normally)

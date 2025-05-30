@@ -64,8 +64,8 @@ This is an outline of the entire programming course timeline. It includes expect
 - **5**. Run and debug
 
 ### Class Project:
-Login check – Match username and password to stored values
-Countdown timer using `while` loop
+**1**. Login check – Match username and password to stored values  
+**2**. Countdown timer using `while` loop
 
 ### Homework:
 - Temperature checker:
@@ -75,3 +75,42 @@ Countdown timer using `while` loop
 
 - Number guessing game (random number 1–10) 
     - User keeps guessing until correct
+
+---
+
+### 🗓️ Day 3 – Functions & Object-Oriented Programming
+*Introduces modular and object-oriented programming by covering how to define and reuse functions, the basics of object-oriented structure, and the role of constructors and encapsulation.*
+
+**Objective**: Write clean, modular code using functions and begin working with classes and objects.
+
+#### Concepts Introduced:
+- Functions: definition, calling, parameters, return values
+- Local vs global scope
+- Type hints and default arguments
+- Classes and objects
+- `__init__()` constructor
+- `self` keyword
+- Attributes and methods
+- Encapsulation
+- Dot notation and object interaction
+
+#### Activities:
+- **1**. Create a file: `functions.py`
+- **2**. Write basic functions using `def`, `return`, and parameters
+- **3**. Experiment with scope and type hints
+- **4**. Define your first class (`Dog`) and add attributes
+- **5**. Add behavior (methods) like `.bark()`
+- **6**. Understand and implement `__init__()` for clean object construction
+- **7**. Practice encapsulating data inside objects
+- **8**. Run and debug
+
+### Class Projects:
+- Calculator app using functions with looping input
+- Pet class with species, name, and speak method
+
+### Homework:
+- Book class
+    - Attributes: title, author, year
+    - Method: `describe()` prints book info
+- Quiz app with 3 questions and score tracker
+- Bonus: Extend calculator with power, modulus, and input validation

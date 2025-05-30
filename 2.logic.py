@@ -206,6 +206,11 @@ while n >= 0:
     n -= 1
 print("Blast off!")
 
+## 🥕 Food list
+favorite_food = ["Pizza", "Ice Cream", "Fruits", "Vegetables", "Other"]
+for food in favorite_food:
+    print(food)
+
 #=============================================================
 #! Section 7: Homework Assignments
 #=============================================================
@@ -216,7 +221,6 @@ Prompt the user to enter a temperature (°F):
 - 60 to 85 → "Cool"
 - < 60 → "Cold"
 '''
-
 temp = int(input("Enter the temperature in Fahrenheit: "))
 if temp > 85:
     print("It's hot!")
@@ -226,13 +230,19 @@ else:
     print("It's cold.")
 
 '''
+📋 Print out a list of items such as food, games, movies, etc.
+'''
+console_companies = ["Sony", "Microsoft", "Nintendo"]
+for company in console_companies:
+    print(company)
+
+'''
 🎯 2. Number Guessing Game
 - Use the random module
 - Generate a number from 1-10
 - Ask the user to guess until they get it right
 - Tell them if the guess is too high or too low
 '''
-
 import random
 
 secret = random.randint(1, 10)
